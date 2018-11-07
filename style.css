@@ -1,0 +1,39 @@
+
+
+.drop-btn {
+    cursor: pointer;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #0088cc;
+    
+}
+
+.drop-btn:hover, .drop-btn:focus {
+    background-color: #7abcdd;
+    transition: all ease-out 0.3s;
+}
+
+.dropdown {
+    margin: 150px;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #fefefe;
+    box-shadow: 0px 8px 32px 0px rgba(0,0,0,0.1);
+    min-width: 150px;
+}
+
+.drop-content a {
+    color: #0088cc;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.drop-content a:hover {
+    background-color: #f7f7f7;
+}
